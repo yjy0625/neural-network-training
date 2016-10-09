@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5943AFD11DAA090700EA4119 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5943AFC81DAA090700EA4119 /* AppDelegate.m */; };
+		5943AFD21DAA090700EA4119 /* MyOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5943AFCA1DAA090700EA4119 /* MyOpenGLView.m */; };
+		5943AFD31DAA090700EA4119 /* NNTraining.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5943AFCB1DAA090700EA4119 /* NNTraining.cpp */; };
+		5943AFD41DAA090700EA4119 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5943AFCE1DAA090700EA4119 /* ViewController.mm */; };
+		5943AFD51DAA090700EA4119 /* welcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5943AFD01DAA090700EA4119 /* welcomeViewController.m */; };
+		5943AFD81DAA091A00EA4119 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5943AFD61DAA091A00EA4119 /* Credits.rtf */; };
+		5943AFD91DAA091A00EA4119 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5943AFD71DAA091A00EA4119 /* Info.plist */; };
+		5943AFDE1DAA092500EA4119 /* ExitBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 5943AFDA1DAA092500EA4119 /* ExitBtn.png */; };
+		5943AFDF1DAA092500EA4119 /* ML.png in Resources */ = {isa = PBXBuildFile; fileRef = 5943AFDB1DAA092500EA4119 /* ML.png */; };
+		5943AFE01DAA092500EA4119 /* PresentBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 5943AFDC1DAA092500EA4119 /* PresentBtn.png */; };
+		5943AFE11DAA092500EA4119 /* TrainBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 5943AFDD1DAA092500EA4119 /* TrainBtn.png */; };
+		5943AFE31DAA093F00EA4119 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5943AFE21DAA093F00EA4119 /* Assets.xcassets */; };
+		5943AFE51DAA094700EA4119 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5943AFE41DAA094700EA4119 /* main.m */; };
+		5943AFE81DAA0A1000EA4119 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5943AFE61DAA0A1000EA4119 /* Main.storyboard */; };
+		5995BE1E1C644A2100469E73 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5995BE1C1C644A2100469E73 /* GLUT.framework */; };
+		5995BE1F1C644A2100469E73 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5995BE1D1C644A2100469E73 /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5995BE001C6449C300469E73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5995BDE11C6449C300469E73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5995BDE81C6449C300469E73;
+			remoteInfo = Example;
+		};
+		5995BE0B1C6449C300469E73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5995BDE11C6449C300469E73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5995BDE81C6449C300469E73;
+			remoteInfo = Example;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5943AFC71DAA090700EA4119 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "NN Training/AppDelegate.h"; sourceTree = SOURCE_ROOT; };
+		5943AFC81DAA090700EA4119 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "NN Training/AppDelegate.m"; sourceTree = SOURCE_ROOT; };
+		5943AFC91DAA090700EA4119 /* MyOpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyOpenGLView.h; path = "NN Training/MyOpenGLView.h"; sourceTree = SOURCE_ROOT; };
+		5943AFCA1DAA090700EA4119 /* MyOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyOpenGLView.m; path = "NN Training/MyOpenGLView.m"; sourceTree = SOURCE_ROOT; };
+		5943AFCB1DAA090700EA4119 /* NNTraining.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NNTraining.cpp; path = "NN Training/NNTraining.cpp"; sourceTree = SOURCE_ROOT; };
+		5943AFCC1DAA090700EA4119 /* NNTraining.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NNTraining.h; path = "NN Training/NNTraining.h"; sourceTree = SOURCE_ROOT; };
+		5943AFCD1DAA090700EA4119 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = "NN Training/ViewController.h"; sourceTree = SOURCE_ROOT; };
+		5943AFCE1DAA090700EA4119 /* ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ViewController.mm; path = "NN Training/ViewController.mm"; sourceTree = SOURCE_ROOT; };
+		5943AFCF1DAA090700EA4119 /* welcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = welcomeViewController.h; path = "NN Training/welcomeViewController.h"; sourceTree = SOURCE_ROOT; };
+		5943AFD01DAA090700EA4119 /* welcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = welcomeViewController.m; path = "NN Training/welcomeViewController.m"; sourceTree = SOURCE_ROOT; };
+		5943AFD61DAA091A00EA4119 /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = Credits.rtf; path = "NN Training/Credits.rtf"; sourceTree = SOURCE_ROOT; };
+		5943AFD71DAA091A00EA4119 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "NN Training/Info.plist"; sourceTree = SOURCE_ROOT; };
+		5943AFDA1DAA092500EA4119 /* ExitBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ExitBtn.png; path = "NN Training/images/ExitBtn.png"; sourceTree = SOURCE_ROOT; };
+		5943AFDB1DAA092500EA4119 /* ML.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ML.png; path = "NN Training/images/ML.png"; sourceTree = SOURCE_ROOT; };
+		5943AFDC1DAA092500EA4119 /* PresentBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PresentBtn.png; path = "NN Training/images/PresentBtn.png"; sourceTree = SOURCE_ROOT; };
+		5943AFDD1DAA092500EA4119 /* TrainBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TrainBtn.png; path = "NN Training/images/TrainBtn.png"; sourceTree = SOURCE_ROOT; };
+		5943AFE21DAA093F00EA4119 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "NN Training/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
+		5943AFE41DAA094700EA4119 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "NN Training/main.m"; sourceTree = SOURCE_ROOT; };
+		5943AFE71DAA0A1000EA4119 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "NN Training/Base.lproj/Main.storyboard"; sourceTree = SOURCE_ROOT; };
+		5995BDE91C6449C300469E73 /* NN Training.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NN Training.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5995BDFF1C6449C300469E73 /* NN Training.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NN Training.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5995BE0A1C6449C300469E73 /* NN Training.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NN Training.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5995BE1C1C644A2100469E73 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		5995BE1D1C644A2100469E73 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5995BDE61C6449C300469E73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5995BE1E1C644A2100469E73 /* GLUT.framework in Frameworks */,
+				5995BE1F1C644A2100469E73 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5995BDFC1C6449C300469E73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5995BE071C6449C300469E73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5995BDE01C6449C300469E73 = {
+			isa = PBXGroup;
+			children = (
+				5995BE1C1C644A2100469E73 /* GLUT.framework */,
+				5995BE1D1C644A2100469E73 /* OpenGL.framework */,
+				5995BDEB1C6449C300469E73 /* NN Training */,
+				5995BDEA1C6449C300469E73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5995BDEA1C6449C300469E73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5995BDE91C6449C300469E73 /* NN Training.app */,
+				5995BDFF1C6449C300469E73 /* NN Training.xctest */,
+				5995BE0A1C6449C300469E73 /* NN Training.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5995BDEB1C6449C300469E73 /* NN Training */ = {
+			isa = PBXGroup;
+			children = (
+				5943AFC91DAA090700EA4119 /* MyOpenGLView.h */,
+				5943AFCA1DAA090700EA4119 /* MyOpenGLView.m */,
+				5943AFCB1DAA090700EA4119 /* NNTraining.cpp */,
+				5943AFCC1DAA090700EA4119 /* NNTraining.h */,
+				5943AFCD1DAA090700EA4119 /* ViewController.h */,
+				5943AFCE1DAA090700EA4119 /* ViewController.mm */,
+				5943AFCF1DAA090700EA4119 /* welcomeViewController.h */,
+				5943AFD01DAA090700EA4119 /* welcomeViewController.m */,
+				5943AFE61DAA0A1000EA4119 /* Main.storyboard */,
+				5995BDEF1C6449C300469E73 /* Supporting Files */,
+			);
+			name = "NN Training";
+			path = Example;
+			sourceTree = "<group>";
+		};
+		5995BDEF1C6449C300469E73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5943AFC71DAA090700EA4119 /* AppDelegate.h */,
+				5943AFC81DAA090700EA4119 /* AppDelegate.m */,
+				5943AFDA1DAA092500EA4119 /* ExitBtn.png */,
+				5943AFDB1DAA092500EA4119 /* ML.png */,
+				5943AFDC1DAA092500EA4119 /* PresentBtn.png */,
+				5943AFDD1DAA092500EA4119 /* TrainBtn.png */,
+				5943AFD61DAA091A00EA4119 /* Credits.rtf */,
+				5943AFD71DAA091A00EA4119 /* Info.plist */,
+				5943AFE21DAA093F00EA4119 /* Assets.xcassets */,
+				5943AFE41DAA094700EA4119 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5995BDE81C6449C300469E73 /* NN Training */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5995BE131C6449C300469E73 /* Build configuration list for PBXNativeTarget "NN Training" */;
+			buildPhases = (
+				5995BDE51C6449C300469E73 /* Sources */,
+				5995BDE61C6449C300469E73 /* Frameworks */,
+				5995BDE71C6449C300469E73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NN Training";
+			productName = Example;
+			productReference = 5995BDE91C6449C300469E73 /* NN Training.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5995BDFE1C6449C300469E73 /* NN TrainingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5995BE161C6449C300469E73 /* Build configuration list for PBXNativeTarget "NN TrainingTests" */;
+			buildPhases = (
+				5995BDFB1C6449C300469E73 /* Sources */,
+				5995BDFC1C6449C300469E73 /* Frameworks */,
+				5995BDFD1C6449C300469E73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5995BE011C6449C300469E73 /* PBXTargetDependency */,
+			);
+			name = "NN TrainingTests";
+			productName = ExampleTests;
+			productReference = 5995BDFF1C6449C300469E73 /* NN Training.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5995BE091C6449C300469E73 /* NN TrainingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5995BE191C6449C300469E73 /* Build configuration list for PBXNativeTarget "NN TrainingUITests" */;
+			buildPhases = (
+				5995BE061C6449C300469E73 /* Sources */,
+				5995BE071C6449C300469E73 /* Frameworks */,
+				5995BE081C6449C300469E73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5995BE0C1C6449C300469E73 /* PBXTargetDependency */,
+			);
+			name = "NN TrainingUITests";
+			productName = ExampleUITests;
+			productReference = 5995BE0A1C6449C300469E73 /* NN Training.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5995BDE11C6449C300469E73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Jingyun Yang";
+				TargetAttributes = {
+					5995BDE81C6449C300469E73 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					5995BDFE1C6449C300469E73 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 5995BDE81C6449C300469E73;
+					};
+					5995BE091C6449C300469E73 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 5995BDE81C6449C300469E73;
+					};
+				};
+			};
+			buildConfigurationList = 5995BDE41C6449C300469E73 /* Build configuration list for PBXProject "NN Training" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5995BDE01C6449C300469E73;
+			productRefGroup = 5995BDEA1C6449C300469E73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5995BDE81C6449C300469E73 /* NN Training */,
+				5995BDFE1C6449C300469E73 /* NN TrainingTests */,
+				5995BE091C6449C300469E73 /* NN TrainingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5995BDE71C6449C300469E73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5943AFDF1DAA092500EA4119 /* ML.png in Resources */,
+				5943AFE01DAA092500EA4119 /* PresentBtn.png in Resources */,
+				5943AFDE1DAA092500EA4119 /* ExitBtn.png in Resources */,
+				5943AFE81DAA0A1000EA4119 /* Main.storyboard in Resources */,
+				5943AFD91DAA091A00EA4119 /* Info.plist in Resources */,
+				5943AFD81DAA091A00EA4119 /* Credits.rtf in Resources */,
+				5943AFE11DAA092500EA4119 /* TrainBtn.png in Resources */,
+				5943AFE31DAA093F00EA4119 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5995BDFD1C6449C300469E73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5995BE081C6449C300469E73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5995BDE51C6449C300469E73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5943AFD11DAA090700EA4119 /* AppDelegate.m in Sources */,
+				5943AFD51DAA090700EA4119 /* welcomeViewController.m in Sources */,
+				5943AFD41DAA090700EA4119 /* ViewController.mm in Sources */,
+				5943AFD21DAA090700EA4119 /* MyOpenGLView.m in Sources */,
+				5943AFE51DAA094700EA4119 /* main.m in Sources */,
+				5943AFD31DAA090700EA4119 /* NNTraining.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5995BDFB1C6449C300469E73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5995BE061C6449C300469E73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5995BE011C6449C300469E73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5995BDE81C6449C300469E73 /* NN Training */;
+			targetProxy = 5995BE001C6449C300469E73 /* PBXContainerItemProxy */;
+		};
+		5995BE0C1C6449C300469E73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5995BDE81C6449C300469E73 /* NN Training */;
+			targetProxy = 5995BE0B1C6449C300469E73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5943AFE61DAA0A1000EA4119 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5943AFE71DAA0A1000EA4119 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5995BE111C6449C300469E73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5995BE121C6449C300469E73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5995BE141C6449C300469E73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/NN Training/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_BUNDLE_IDENTIFIER = "rdfz.s131422.NN-Training";
+				PRODUCT_NAME = "NN Training";
+			};
+			name = Debug;
+		};
+		5995BE151C6449C300469E73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/NN Training/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_BUNDLE_IDENTIFIER = "rdfz.s131422.NN-Training";
+				PRODUCT_NAME = "NN Training";
+			};
+			name = Release;
+		};
+		5995BE171C6449C300469E73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rdfz.s131422.ExampleTests;
+				PRODUCT_NAME = "NN Training";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NN Training.app/Contents/MacOS/NN Training";
+			};
+			name = Debug;
+		};
+		5995BE181C6449C300469E73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rdfz.s131422.ExampleTests;
+				PRODUCT_NAME = "NN Training";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NN Training.app/Contents/MacOS/NN Training";
+			};
+			name = Release;
+		};
+		5995BE1A1C6449C300469E73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rdfz.s131422.ExampleUITests;
+				PRODUCT_NAME = "NN Training";
+				TEST_TARGET_NAME = Example;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5995BE1B1C6449C300469E73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rdfz.s131422.ExampleUITests;
+				PRODUCT_NAME = "NN Training";
+				TEST_TARGET_NAME = Example;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5995BDE41C6449C300469E73 /* Build configuration list for PBXProject "NN Training" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5995BE111C6449C300469E73 /* Debug */,
+				5995BE121C6449C300469E73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5995BE131C6449C300469E73 /* Build configuration list for PBXNativeTarget "NN Training" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5995BE141C6449C300469E73 /* Debug */,
+				5995BE151C6449C300469E73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5995BE161C6449C300469E73 /* Build configuration list for PBXNativeTarget "NN TrainingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5995BE171C6449C300469E73 /* Debug */,
+				5995BE181C6449C300469E73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5995BE191C6449C300469E73 /* Build configuration list for PBXNativeTarget "NN TrainingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5995BE1A1C6449C300469E73 /* Debug */,
+				5995BE1B1C6449C300469E73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5995BDE11C6449C300469E73 /* Project object */;
+}
