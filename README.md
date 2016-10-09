@@ -1,5 +1,7 @@
 # neural-network-training
 
+![Program Snapshot](Executable\ File/snapshot.png "Program Snapshot")
+
 ## Introduction
 A Mac software that visualizes BP Neural Network progress.
 
@@ -10,9 +12,6 @@ A Mac software that visualizes BP Neural Network progress.
 * Support parameter update (learning rate, lambda, and number of iteration) during training  
 
 ## User Interface
-
-![Program Snapshot](Executable\ File/snapshot.png "Program Snapshot")
-
 * Cost Function Tab: Shows change of cost function with x-axis as number of iteration and y-axis as value (with lowest side 0 and highest side cost function before the first iteration)  
 * Precision Tab: Shows change of precision throughout training process. Red line denotes training set precision; blue line denotes test set precision  
 * Test Set Tab: Visualizes which data in the whole dataset is identified correctly. White box indicates correct and black means incorrect  
