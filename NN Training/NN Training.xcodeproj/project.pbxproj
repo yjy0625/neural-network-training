@@ -13,7 +13,6 @@
 		5943AFD41DAA090700EA4119 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5943AFCE1DAA090700EA4119 /* ViewController.mm */; };
 		5943AFD51DAA090700EA4119 /* welcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5943AFD01DAA090700EA4119 /* welcomeViewController.m */; };
 		5943AFD81DAA091A00EA4119 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5943AFD61DAA091A00EA4119 /* Credits.rtf */; };
-		5943AFD91DAA091A00EA4119 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5943AFD71DAA091A00EA4119 /* Info.plist */; };
 		5943AFDE1DAA092500EA4119 /* ExitBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 5943AFDA1DAA092500EA4119 /* ExitBtn.png */; };
 		5943AFDF1DAA092500EA4119 /* ML.png in Resources */ = {isa = PBXBuildFile; fileRef = 5943AFDB1DAA092500EA4119 /* ML.png */; };
 		5943AFE01DAA092500EA4119 /* PresentBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 5943AFDC1DAA092500EA4119 /* PresentBtn.png */; };
@@ -54,7 +53,6 @@
 		5943AFCF1DAA090700EA4119 /* welcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = welcomeViewController.h; path = "NN Training/welcomeViewController.h"; sourceTree = SOURCE_ROOT; };
 		5943AFD01DAA090700EA4119 /* welcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = welcomeViewController.m; path = "NN Training/welcomeViewController.m"; sourceTree = SOURCE_ROOT; };
 		5943AFD61DAA091A00EA4119 /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = Credits.rtf; path = "NN Training/Credits.rtf"; sourceTree = SOURCE_ROOT; };
-		5943AFD71DAA091A00EA4119 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "NN Training/Info.plist"; sourceTree = SOURCE_ROOT; };
 		5943AFDA1DAA092500EA4119 /* ExitBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ExitBtn.png; path = "NN Training/images/ExitBtn.png"; sourceTree = SOURCE_ROOT; };
 		5943AFDB1DAA092500EA4119 /* ML.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ML.png; path = "NN Training/images/ML.png"; sourceTree = SOURCE_ROOT; };
 		5943AFDC1DAA092500EA4119 /* PresentBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PresentBtn.png; path = "NN Training/images/PresentBtn.png"; sourceTree = SOURCE_ROOT; };
@@ -62,6 +60,7 @@
 		5943AFE21DAA093F00EA4119 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "NN Training/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
 		5943AFE41DAA094700EA4119 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "NN Training/main.m"; sourceTree = SOURCE_ROOT; };
 		5943AFE71DAA0A1000EA4119 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "NN Training/Base.lproj/Main.storyboard"; sourceTree = SOURCE_ROOT; };
+		5963C1751DAAB285001FD2FB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "NN Training/Info.plist"; sourceTree = SOURCE_ROOT; };
 		5995BDE91C6449C300469E73 /* NN Training.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NN Training.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5995BDFF1C6449C300469E73 /* NN Training.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NN Training.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5995BE0A1C6449C300469E73 /* NN Training.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NN Training.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,7 +143,7 @@
 				5943AFDC1DAA092500EA4119 /* PresentBtn.png */,
 				5943AFDD1DAA092500EA4119 /* TrainBtn.png */,
 				5943AFD61DAA091A00EA4119 /* Credits.rtf */,
-				5943AFD71DAA091A00EA4119 /* Info.plist */,
+				5963C1751DAAB285001FD2FB /* Info.plist */,
 				5943AFE21DAA093F00EA4119 /* Assets.xcassets */,
 				5943AFE41DAA094700EA4119 /* main.m */,
 			);
@@ -258,7 +257,6 @@
 				5943AFE01DAA092500EA4119 /* PresentBtn.png in Resources */,
 				5943AFDE1DAA092500EA4119 /* ExitBtn.png in Resources */,
 				5943AFE81DAA0A1000EA4119 /* Main.storyboard in Resources */,
-				5943AFD91DAA091A00EA4119 /* Info.plist in Resources */,
 				5943AFD81DAA091A00EA4119 /* Credits.rtf in Resources */,
 				5943AFE11DAA092500EA4119 /* TrainBtn.png in Resources */,
 				5943AFE31DAA093F00EA4119 /* Assets.xcassets in Resources */,
