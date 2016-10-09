@@ -3,7 +3,7 @@
 ![Program Snapshot](Executable\ File/snapshot.png "Program Snapshot")
 
 ## Introduction
-A Mac software that visualizes BP Neural Network progress.
+A Mac software that visualizes BP Neural Network training progress.
 
 ## Features
 * Accept files as data input and trains a neural network to fit the data
